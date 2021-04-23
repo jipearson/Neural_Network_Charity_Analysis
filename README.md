@@ -30,23 +30,23 @@ We will be designing and training our model using the Python TensorFlow library 
 			- Relu for our two hidden layers and sigmoid for our output layer. 
 			- Unable to achive desired model performance of 75% <br> ![](Images/asc.PNG)
 		- AlphabetSoupCharity_Optimzation
-			- 150 neurons
-			- 4 hidden layers
+			- 150 neurons in our hidden layers.
+			- 4 hidden layers.
 			- Relu, tanh, sigmoid, relu, and sigmoid for our first, second, third, fourth and output layers respectively. 
 			- Unable to achive desired model performance of 75% <br> ![](Images/optimzation1.PNG)
 		- AlphabetSoupCharity_Optimzation_2
-			- 80 neurons
-			- 2 hidden layers
+			- 80 neurons in our hidden layers. 
+			- 2 hidden layers.
 			- Relu for our two hidden layers and tanh for our output layer. 
 			- Unable to achive desired model performance of 75% <br> ![](Images/optimzation2.PNG)
 		- AlphabetSoupCharity_Optimzation_3
-			- 155 neurons
-			- 5 hidden layers
+			- 155 neurons in our hidden layers.
+			- 5 hidden layers.
 			- Relu, tanh, sigmoid, relu, relu, and sigmoid for our first, second, third, fourth, fifth, and output layers respectively. 
 			- Unable to achive desired model performance of 75% <br> ![](Images/optimzation3.PNG)
 		- AlphabetSoupCharity_Optimzation_4
-			- 74 neurons
-			- 4 hidden layers
+			- 74 neurons in our hidden layers.
+			- 4 hidden layers.
 			- Sigmoid for all activation functions. 
 			- Unable to achive desired model performance of 75% <br> ![](Images/optimzation4.PNG)
 - Steps taken to try and increase model performance. 
@@ -54,10 +54,11 @@ We will be designing and training our model using the Python TensorFlow library 
 	- Add neurons to hidden layers.
 	- Add hidden layers.
 	- Changed the activation function of hidden layers and output layers.
+	- Changed the number of epochs. 
 	- Created a Keras hyperband tuner to search for the best parameters (this one worked the best)
 
 ## Analysis Summary
-We were unable to meet our 75% accuracy goal with any of our models with 73.35% accuracy from our top performing model. 
+We were unable to meet our 75% accuracy goal with any of our models. With 73.35% accuracy our Keras hyperband tuner helped produce our top performing model. 
 
 Given these results I would recommend the following. 
 - Further analysis needed. 
