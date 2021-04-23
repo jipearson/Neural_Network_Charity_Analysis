@@ -49,5 +49,17 @@ We will be designing and training our model using the Python TensorFlow library 
 			- 4 hidden layers
 			- Sigmoid for all activation functions. 
 			- Unable to achive desired model performance of 75% <br> ![](Images/optimzation4.PNG)
+- Steps taken to try and increase model performance. 
+	- Remove noisy variables from features. 
+	- Add neurons to hidden layers.
+	- Add hidden layers.
+	- Changed the activation function of hidden layers and output layers.
+	- Created a Keras hyperband tuner to search for the best parameters (this one worked the best)
 
 ## Analysis Summary
+We were unable to meet our 75% accuracy goal with any of our models with 73.35% accuracy from our top performing model. 
+
+Given these results I would recommend the following. 
+- Further analysis needed. 
+- Find additional variables that can be used as predictive features for our model. 
+- Try a random forest model as it is a widely used often effictive classification model that operates by constructing a multitude of decision trees.
