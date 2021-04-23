@@ -22,5 +22,32 @@ We will be designing and training our model using the Python TensorFlow library 
 		- 'SPECIAL_CONSIDERATIONS': Special consideration for application
 		- 'ASK_AMT': Funding amount requested
 	- We drop 'EIN' and 'NAME' because they are non-beneficial unique identifier variables and provide no predictive value to our model.
+- Compiling, Training, and Evaluating our Models (5 different models are included in this repository) 
+	- Number of neurons, layers, and activation functions. 
+		- AlphabetSoupCharity model
+			- 110 neurons
+			- 2 hidden layers
+			- Relu for our two hidden layers and sigmoid for our output layer. 
+			- Unable to achive desired model performance of 75% <br> ![](Images/asc.PNG)
+		- AlphabetSoupCharity_Optimzation
+			- 150 neurons
+			- 4 hidden layers
+			- Relu, tanh, sigmoid, relu, and sigmoid for our first, second, third, fourth and output layers respectively. 
+			- Unable to achive desired model performance of 75% <br> ![](Images/optimzation1.PNG)
+		- AlphabetSoupCharity_Optimzation_2
+			- 80 neurons
+			- 2 hidden layers
+			- Relu for our two hidden layers and tanh for our output layer. 
+			- Unable to achive desired model performance of 75% <br> ![](Images/optimzation2.PNG)
+		- AlphabetSoupCharity_Optimzation_3
+			- 155 neurons
+			- 5 hidden layers
+			- Relu, tanh, sigmoid, relu, relu, and sigmoid for our first, second, third, fourth, fifth, and output layers respectively. 
+			- Unable to achive desired model performance of 75% <br> ![](Images/optimzation3.PNG)
+		- AlphabetSoupCharity_Optimzation_4
+			- 74 neurons
+			- 4 hidden layers
+			- Sigmoid for all activation functions. 
+			- Unable to achive desired model performance of 75% <br> ![](Images/optimzation4.PNG)
 
 ## Analysis Summary
