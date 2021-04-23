@@ -9,6 +9,18 @@ Our job is to analyze the impact of each donation and vet out potential recipien
 We will be designing and training our model using the Python TensorFlow library and a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization.
 
 ## Analysis Results
-
+- Data Preprocessing 
+	- The binary 'IS_SUCCESSFUL' variable is our target variable and let's us know if the money was used effectively. 
+	- The rest of our beneficial variables make up our model features.  
+		- 'APPLICATION_TYPE': Alphabet Soup application type
+		- 'AFFILIATION': Affiliated sector of industry
+		- 'CLASSIFICATION': Government organization classification
+		- 'USE_CASE': Use case for funding
+		- 'ORGANIZATION': Organization type
+		- 'STATUS': Active status
+		- 'INCOME_AMT': Income classification
+		- 'SPECIAL_CONSIDERATIONS': Special consideration for application
+		- 'ASK_AMT': Funding amount requested
+	- We drop 'EIN' and 'NAME' because they are non-beneficial unique identifier variables and provide no predictive value to our model.
 
 ## Analysis Summary
